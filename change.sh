@@ -24,7 +24,7 @@ cat<<EOF
 EOF
 
 
-#修改源需要root权限
+#need root 
 if [ $(id -u) -ne 0 ]; then
     echo "Need Root!"
     exit 0
